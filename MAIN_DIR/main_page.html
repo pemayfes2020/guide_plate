@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>main_page</title>
+    <script type="text/javascript" src="./js/speechRecognition.js"></script>
+    <script type="text/javascript" src="./js/canvas.js"></script>
+    <script type="text/javascript" src="./js/pico.js"></script>
+    <style type="text/css">
+        body{
+            background-image: url("images/vegas_sample09.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+ 
+<body>
+    <script type="text/javascript" src="./js/face_recognition.js"></script>
+
+    <canvas width=640 height=480 hidden=""></canvas>
+
+    <script type="text/javascript">
+        window.onload = button_callback();
+    </script>
+    <script>
+        window.onload=vr_function();//ボタンを押さなくても音声認識が実行される。
+    </script>
+</body>
+ 
+</html>
